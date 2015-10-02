@@ -35,7 +35,6 @@
 
 #include <ArduinoRobot.h> // include the robot library
 #include <Wire.h>
-#include <SPI.h>
 
 const int NUM_PICS = 4;  //Total number of pictures in Gallery
 

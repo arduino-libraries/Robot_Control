@@ -24,7 +24,6 @@
 
 #include <ArduinoRobot.h> // include the robot library
 #include <Wire.h>
-#include <SPI.h>
 
 void setup() {
   // initialize the Robot, SD card, display, and speaker
