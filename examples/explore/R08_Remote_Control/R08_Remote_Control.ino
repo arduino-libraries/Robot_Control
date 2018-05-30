@@ -36,7 +36,7 @@
 #define IR_CODE_TURN_RIGHT 284127885
 #define IR_CODE_CONTINUE -1
 
-boolean isActing = false; //If the robot is executing command from remote
+bool isActing = false; //If the robot is executing command from remote
 long timer;
 const long TIME_OUT = 150;
 

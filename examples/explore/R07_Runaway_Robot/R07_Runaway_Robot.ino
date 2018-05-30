@@ -60,7 +60,7 @@ float getDistance() {
 }
 
 // make a happy or sad face
-void setFace(boolean onOff) {
+void setFace(bool onOff) {
   if (onOff) {
     // if true show a happy face
     Robot.background(0, 0, 255);
