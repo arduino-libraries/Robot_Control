@@ -105,7 +105,7 @@ void runScript() {
 }
 
 // instead of delay, use this timer
-boolean waiting() {
+bool waiting() {
   if (millis() - waitFrom >= waitTime) {
     return false;
   } else {
@@ -156,7 +156,7 @@ void setInterface() {
 }
 
 // display the next song
-void select(int seq, boolean onOff) {
+void select(int seq, bool onOff) {
   if (onOff) { //select
     Robot.stroke(0, 0, 0);
     Robot.text(musics[seq], 0, 0);
